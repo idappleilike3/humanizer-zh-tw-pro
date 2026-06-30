@@ -1,0 +1,32 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node / Build artifacts (if scripts later added)
+node_modules/
+.next/
+dist/
+build/
+*.log
+*.tsbuildinfo
+
+# Temp
+*.tmp
+*.bak
+*.orig
+
+# Local secrets (defense in depth — should never be added)
+.env
+.env.local
+*.token
+*credentials*
